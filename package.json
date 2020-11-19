@@ -1,0 +1,11 @@
+{
+  "name": "11ty-globaldata-repro",
+  "version": "0.0.1",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "scripts": {
+    "repro": "npx eleventy --serve"
+  }
+}

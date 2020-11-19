@@ -1,0 +1,21 @@
+---
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    This list should contain three non-blank items.
+
+    <ul>
+    {% for item in foo %}
+        <li>key: {{ item.key }}</li>
+    {% endfor %}
+    </ul>
+
+</body>
+</html>
